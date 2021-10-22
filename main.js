@@ -21,7 +21,7 @@ if ((opcion != 1) && (opcion != 2) && (opcion != 3)){
 }
 
 //IVA 27%
-else if (opcion == 1){
+else if (opcion === 1){
     precioSinIva = parseFloat(prompt("Ingrese el importe del producto para calcular el IVA del 27%"));
     totalIva = (precioSinIva * iva27);
     precioConIva = (totalIva + precioSinIva);
@@ -30,7 +30,7 @@ else if (opcion == 1){
 }
 
 //IVA 21%
-else if (opcion == 2){
+else if (opcion === 2){
     precioSinIva = parseFloat(prompt("Ingrese el importe del producto para calcular el IVA del 21%"));
     totalIva = (precioSinIva * iva21);
     precioConIva = (totalIva + precioSinIva);
