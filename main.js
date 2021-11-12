@@ -42,6 +42,8 @@ const mostrarProductos = () => {
         }
         return mensaje;
 
+    } else{
+        
     }
 }
 
@@ -84,6 +86,7 @@ const menuPrincipal = () => {
         case 2:
             console.log(mostrarProductos());
             console.log(comprar());
+            break;
 
         case 3:
             alert(`Gracias, vuelva pronto!`)
